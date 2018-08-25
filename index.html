@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1 class="header">Crystal Collector!</h1>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="card bg-primary">
+
+                    <p class="mx-auto card-text">Welcome to the Crystal Collector! In this game, the crystals below each have a random number assigned to them. When you click one, it will add that total to your score. You must try to reach the target score without going over!</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="card bg-primary">
+
+                    <div class="mx-auto card-text">Wins:</div>
+
+                    <div class="mx-auto card-text" id="wins">0</div>
+
+                    <div class="mx-auto card-text">Losses:</div>
+
+                    <div class="mx-auto card-text" id="losses">0</div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col align-self-center">
+
+                <div class="card mx-auto bg-primary mt-3" style="width: 400px;">
+                    
+                    <h4 class="card-title mx-auto">Number to Guess:</h4>
+
+                    <div class="card-text mx-auto" id="guessme">0</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+                <div class="col align-self-center">
+    
+                    <div class="card mx-auto bg-primary mt-3 mb-3" style="width: 400px;">
+                        
+                        <h4 class="card-title mx-auto">Current Total</h4>
+    
+                        <div class="card-text mx-auto" id="total">0</div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+
+        <div class="row">
+
+            <img src="assets/images/crystal1.jpg" alt="crystal" id="crystal1" class="crystal mx-auto" crystalno="0">
+
+            <img src="assets/images/crystal2.jpg" alt="crystal" id="crystal2" class="crystal mx-auto" crystalno="1">
+
+            <img src="assets/images/crystal3.jpg" alt="crystal" id="crystal3" class="crystal mx-auto" crystalno="2">
+
+            <img src="assets/images/crystal4.jpg" alt="crystal" id="crystal4" class="crystal mx-auto" crystalno="3">
+
+        </div>
+    </div>    
+</body>
+</html>

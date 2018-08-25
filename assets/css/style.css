@@ -1,0 +1,13 @@
+body {
+    background-image: url("../images/bg.png")
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.crystal {
+    height: 180px;
+    width: 180px;
+}
